@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa Colonial Timotes</title>
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f7f5f2;color:#333}
+
+/* HERO VIDEO */
+.hero{
+position:relative;
+height:80vh;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero video{
+position:absolute;
+top:50%;
+left:50%;
+min-width:100%;
+min-height:100%;
+transform:translate(-50%,-50%);
+object-fit:cover;
+z-index:-1;
+}
+
+.hero-overlay{
+background:rgba(0,0,0,0.45);
+padding:30px;
+border-radius:10px;
+}
+
+.hero h1{
+font-size:48px;
+margin:0;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+}
+
+.hero button{
+margin-top:20px;
+background:#e3a008;
+border:none;
+padding:15px 30px;
+font-size:18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+section{padding:60px 20px;max-width:1100px;margin:auto}
+
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+
+.card{background:white;padding:20px;border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,0.1);text-align:center}
+
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px}
+.gallery img{width:100%;border-radius:8px}
+
+.pricing{background:#ffffff;border-radius:8px;padding:30px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+.price{font-size:42px;color:#2e4d3c;margin:20px 0}
+
+.cta{background:#2e4d3c;color:white;text-align:center;padding:60px 20px}
+
+.cta button{background:#e3a008;border:none;padding:15px 25px;font-size:18px;border-radius:6px;cursor:pointer}
+
+footer{background:#222;color:white;text-align:center;padding:20px}
+
+.whatsapp-float{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+font-size:16px;
+text-decoration:none;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+</style>
+</head>
+<body>
+
+<!-- HERO VIDEO -->
+<section class="hero">
+
+<video autoplay muted loop playsinline>
+<source src="video-portada.mp4" type="video/mp4">
+</video>
+
+<div class="hero-overlay">
+<h1>Casa Colonial Timotes</h1>
+<p>Una experiencia auténtica en los Andes venezolanos</p>
+<a href="https://wa.me/584145286581">
+<button>Reservar ahora</button>
+</a>
+</div>
+
+</section>
+
+<section>
+<h2>La Casa</h2>
+<p>Disfruta de una auténtica casa colonial en Timotes: tranquilidad, clima de montaña y la esencia de los Andes para familias y grupos. Ubicación cercana al Pico del Águila y la Laguna de Mucubají. Vive el día a día, la cultura y los paisajes andinos en un solo lugar.</p>
+
+<div class="features">
+<div class="card">3 Habitaciones</div>
+<div class="card">3 Baños</div>
+<div class="card">Capacidad hasta 10 personas</div>
+<div class="card">Jardín colonial interno</div>
+<div class="card">Estacionamiento para 2-3 vehículos</div>
+<div class="card">Cocina equipada</div>
+</div>
+
+</section>
+
+<section>
+<h2>Galería</h2>
+
+<div class="gallery">
+<img src="foto1.jpg" alt="Habitación">
+<img src="foto2.jpg" alt="Patio colonial">
+<img src="foto3.jpg" alt="Sala">
+<img src="foto4.jpg" alt="Cocina">
+<img src="foto5.jpg" alt="Fachada">
+<img src="foto6.jpg" alt="Jardín interno">
+</div>
+
+</section>
+
+<section class="pricing">
+<h2>Precio por noche</h2>
+<p>Alquiler completo de la casa</p>
+<div class="price">150 € / noche</div>
+<p>Capacidad hasta 10 personas</p>
+</section>
+
+<section class="cta">
+<h2>Reserva tu estadía</h2>
+<p>Contáctanos directamente para disponibilidad.</p>
+<a href="https://wa.me/584145286581">
+<button>Reservar por WhatsApp</button>
+</a>
+</section>
+
+<a class="whatsapp-float" href="https://wa.me/584145286581">WhatsApp</a>
+
+<footer>
+<p>Casa Colonial Timotes - Turismo en los Andes Venezolanos</p>
+</footer>
+
+</body>
+</html>
